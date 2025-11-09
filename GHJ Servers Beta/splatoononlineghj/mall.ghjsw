@@ -1,0 +1,17 @@
+/splat/online/ghj-servers/mall/stores/goto.purchase.item/pa:"?"/give.user.paid/goto.lobby.option/changestore.dat/cs:sh
+
+#mall;
+
+   ) Shoe, buyTID: "item.purchase.amount: ?"
+
+     ) if paid; "give.user.item.pay"
+
+))) change Store; 89-to-90 /"L to G"/ [loop)
+
+                  exit (If needed.)
+
+ )))))) storeTime limit: "30000000" minutes
+
+) if Splatfest; discount: "32" percent.
+
+                         finish.

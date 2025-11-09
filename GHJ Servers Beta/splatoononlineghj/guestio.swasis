@@ -1,0 +1,21 @@
+/reconnection/ghj-servers/guestio/aitype: "GPT-4 Mini"/limit: "taog.ghjsw"/type: artificial-intelligence/goto: "recomenu.ghjsw"/setup
+
+#guestio;
+
+  )) ghj-server: aitype "GPT-4 Mini" limitation: "taog". run: "node.js" (If going to Miiverse)
+
+    ) guestiokey: "78594596849"
+
+   ) guestiobackup: ((gstbackup.ghjservers.net)) password: "ghjserverai"
+
+      )) run: "GPT-4 Mini" with "taog": "recomenu.ghjsw" open
+
+  ))))) todo; run-up: (%USERDATA%)
+              
+                       )))))))))) "taog" limit: only GHJ setup
+
+     ) guestiobackup; every hour
+
+           ))) run until: 2079
+
+       )) ai: "setup"

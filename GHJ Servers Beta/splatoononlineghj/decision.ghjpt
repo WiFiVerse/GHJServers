@@ -1,0 +1,12 @@
+/splat/online/ghjservers/session:%SESSIONID%/run: "gamelobby.ghjsw"/get: "gamemode"/givedatato: "gamesll.ghjsw"
+
+#givedatato;
+
+  )))run-up: "gamesll.ghjsw"
+
+              [GOTDATA]-[SENDTO]
+
+     ---vers0-session<>"user"
+
+             goto: "gamesll.ghjsw" if found 8 Players in "matchmake.ghjsw"*
+

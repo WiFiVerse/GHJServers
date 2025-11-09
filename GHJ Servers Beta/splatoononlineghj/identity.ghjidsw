@@ -1,0 +1,23 @@
+/identity/goonline/ghj-servers/connectto: ((ghjid.ghjservers.net))/generate 0Auth20 token/goto: "GAMENAME"
+
+#ghjid;
+
+  )) goto: ((accountportal.oldghj.net))
+  
+    :run-up-to "MIIDATA"
+
+ \control: ((useroo.oldghj.net))
+
+       ;sw to up- "%USERNAME%"
+
+     )) if yes, goto: runAccount service: localhost:8191
+
+         )( if no, goto: ((ghjidmake.ghjservers.net))
+
+   ) if optional, wait.
+
+         )) open-up software
+
+  )make "GHJID-Plaza" on-to menu
+
+               end.session

@@ -1,0 +1,37 @@
+/splat/online/ghj-servers/splatnetwork/order.sdl/spyke.connect.todo:"goto.((splatnetwork.ghjservers.net))"/get.item.spnetwork.ghj/run time: pricedouble/hold.timelimit: "10000" days
+
+#splatnetwork;
+
+  )goto.website.secure;((splatnetwork.ghjservers.net)).enterpassword:"SPLATOON"
+     
+     ))login: "%USERNAME%" or "%USERID%"
+
+             ) goto.0Auth20 token generation.ifneeded
+
+#spyke;
+
+   )run:((splatnetspyke.ghjservers.net).enterpassword:"SPYKEORDER"
+
+     ))login: "SPYKE"
+
+             )get.USER.order
+   
+    )goback.orderserver.holditem
+
+#order;
+
+   )holdfor:"10000" days
+
+     ))after:"10000" days now on release, erase
+
+/splat/online/ghj-servers/splatnetwork/itemdeleteafterbuy
+
+#itemdeleteafterbuy;
+
+   )"SPYKE" run: ((itemerase.splatnetwork.ghj)) (If bought)
+
+     )run: "eraseitemafterbought" rand(1,6)
+
+#release;
+
+  ))run: "letgo.ghjsw"

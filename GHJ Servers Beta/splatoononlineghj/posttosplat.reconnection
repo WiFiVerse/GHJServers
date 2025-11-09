@@ -1,0 +1,37 @@
+splatoon/online/ghj-servers/generate 0Auth20 token/userverify/lookup:GHJID &USERNAME%/plaza/connect/conv.ct/goto.lobby/fill:onlineplayers/postconnection:((reconnection.posts.splatoon.ghjservers.net))/profile:%USERNAME%/goto.((userprofiless.ghjservers.net))
+
+#splatoon;
+
+      go:online localhost:8090 provide:GHJSERVERS.NET
+
+#online;
+
+  fill:player localhost:8091 provide:USERPROFILESS.GHJSERVERS.NET
+
+#ghjid;
+
+        player:lookup:%USERNAME% localhost:8096 provide:ghjidentities 
+
+    ticket.tdm/generate/usermii/applyfplazapost/conv.dat/goto.(applypost.reconnection.net))/play:"lkpu"
+
+#ticket.tdm;
+
+       goto:tickets
+
+#reconnection;
+
+     )))) do connect: ((reconnection.posts.splatoon.ghjservers.net))
+
+   run; "ghj.node.js"
+
+localhost updatdto: 9011
+
+       )) do lack: "PNID" type account
+
+ ==allow: "GHJID" login
+
+         generate.0Auth20token (To verify)
+
+:enter password "?"
+
+    :loginto, ((userscreen.ghjservers.net))

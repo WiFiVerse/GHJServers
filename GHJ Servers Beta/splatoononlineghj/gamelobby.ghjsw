@@ -1,0 +1,33 @@
+/splat/online/ghj-servers/gamelobby/goto: "lobby.ghjsw"/get: "Ath.ltcg"/prepare: "user"/sendto: "matchmake.ghjsw"
+
+#gamelobby;
+
+  goto: "lobby.ghjsw", get: "Ath.ltcg"
+
+))) prepare: "user"
+
+     ) if yes, goto "matchmake.ghjsw", or "matchmake.scrwii"
+
+)))/ if no, block "user" for 1 minute. Message: "You need to make a GHJID in order to play."
+
+   )) errorCode: "193830", mean: "No matches found."
+
+/splat/online/ghj-servers/gamelobby/entries
+
+#entries;
+
+   goto: "lobby.ghjsw" 
+
+)) if Splatfest, goto: "splatfest.ghjsw"
+
+   ))apply the options.for
+
+general entries:
+
+   "Turf Wars"-2947
+
+   "Anarchy Battles"-9081
+
+   "Friend Battle"-6508
+
+          localhost: 8234 (If VPN)

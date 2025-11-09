@@ -1,0 +1,11 @@
+/splat/online/ghjservers/goto: "gamelobby.ghjsw"/get: "entries"/get: "user" and "%USERNAME%"/touse: "get other users"
+
+#matchmake;
+
+  ))) get: "user", "%USERDATA%", source: "gamelobby.ghjsw". 
+
+           ))touse: "get other users";
+
+     run: "gamelobby.ghjsw"
+
+  if found 8 Player, goto: "battlesconnect.ghjgm"

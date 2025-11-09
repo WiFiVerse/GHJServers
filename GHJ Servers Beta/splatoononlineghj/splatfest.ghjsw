@@ -1,0 +1,25 @@
+/splat/online/ghj-servers/festival/goto.inkopolisnews/add: nighttime/addbgm: "SS"/run: plazaposts.ghjsw/run: "discount" on mall.ghjsw/end.running
+
+#festival;
+
+  )) add: onlinePlayer count: ? "GHJ online"
+
+     )= do.inkopolisnews.nighttime
+
+   ) add:candm
+
+#plazaposts;
+
+  ) connectTo: "recon-post.ghjsw" localhost:8098
+
+#bgm
+
+ ) add; lobbymusic.dot
+
+   )) add; callieandmariesongs
+
+))))goto.mall.ghjsw, change bgm to; bofgfmallanthem
+
+#function;
+
+run: "splatfest.ghjsw" localhost:8073 provide:((splatfestlobby.ghjservers.net))

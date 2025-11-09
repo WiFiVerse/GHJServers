@@ -1,0 +1,14 @@
+/splat/online/ghjservers/getdata: "matchmake.ghjsw"/run: "decision.ghjpt"
+
+#battlesconnection;
+
+ )=getdata: "matchmake.ghjsw"
+
+    )):run, "decision.ghjpt" to get the game-mode
+
+ if Splatfest, *try-verss--46*
+
+ if Normal, *try-verss--45*
+
+       //runbytime: 988884---
+

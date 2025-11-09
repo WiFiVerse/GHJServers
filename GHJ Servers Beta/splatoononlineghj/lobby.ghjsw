@@ -1,0 +1,66 @@
+splatoon/online/ghj-servers/generate 0Auth20 token/userverify/lookup:GHJID &USERNAME%/plaza/connect/inkopolisnews.start/start:maprotationbynews.dat/conv.ct/end.inkopolisnews/goto.lobby/fill:onlineplayers/postconnection:((reconnection.posts.splatoon.ghjservers.net))/profile:%USERNAME%/goto.((userprofiless.ghjservers.net))
+
+#splatoon;
+
+  go:online localhost:8090 provide:GHJSERVERS.NET
+
+#online;
+
+      fill:player localhost:8091 provide:USERPROFILESS.GHJSERVERS.NET
+
+#inkopolis-news;
+
+lookup:candm localhost:8089 provide:conv.ct start/maprotationbynews.dat/goto.candm
+
+   casual-go:announce.update.servers (If needed.)
+
+#ghjid;
+
+   player:lookup:%USERNAME% localhost:8096 provide:ghjidentities 
+
+ ticket.tdm/generate/usermii/applyfplazapost/conv.dat/goto.(applypost.reconnection.net))/play:"lkpu"
+
+#ticket.tdm;
+
+     goto:tickets
+
+#usermii;
+
+)
+
+var AuthenticationServerAccount *nex.Account
+
+      var SecureServerAccount *nex.Account
+
+  func InitAccounts() {
+	  AuthenticationServerAccount = nex.NewAccount(types.NewPID(1), "Quazal Authentication", KerberosPassword)
+	       SecureServerAccount = nex.NewAccount(types.NewPID(2), "Quazal Rendez-Vous", KerberosPassword)
+}
+
+   func AccountDetailsByPID(pid types.PID) (*nex.Account, *nex.Error) {
+	    if pid.Equals(AuthenticationServerAccount.PID) {
+		            return AuthenticationServerAccount, nil
+	}
+
+	      if pid.Equals(SecureServerAccount.PID) {
+		return SecureServerAccount, nil
+	}
+
+	  password, errorCode := PasswordFromPID(pid)
+   if errorCode != 0 {
+	return nil, nex.NewError(errorCode, "Failed to get password from PID")
+
+#lkpu;
+
+  conv.net.ghj.connectionsecure lookup:"bingver--"
+
+  )) func LKPUByGHJ /3492/
+
+           [if password.return (LKPU.GHJ)]
+
+                 lkpu, errorCode := LKPUFromGHJ (ghj)
+
+    --version ghj
+
+
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											                                                                                          	                                                      	
